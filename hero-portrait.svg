@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 900" role="img" aria-labelledby="title desc">
+  <title id="title">Portrait artwork</title>
+  <desc id="desc">A dark blue cinematic portrait inspired by the provided reference image.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d1728"/>
+      <stop offset="50%" stop-color="#1b2940"/>
+      <stop offset="100%" stop-color="#070b14"/>
+    </linearGradient>
+    <radialGradient id="light" cx="50%" cy="42%" r="42%">
+      <stop offset="0%" stop-color="#dce7f8" stop-opacity="0.9"/>
+      <stop offset="45%" stop-color="#8699ba" stop-opacity="0.32"/>
+      <stop offset="100%" stop-color="#102033" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="face" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f0f4ff"/>
+      <stop offset="100%" stop-color="#7e8ca7"/>
+    </linearGradient>
+    <linearGradient id="hair" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#07101d"/>
+      <stop offset="100%" stop-color="#1a2841"/>
+    </linearGradient>
+    <filter id="blur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="24"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="900" fill="url(#bg)"/>
+  <ellipse cx="250" cy="200" rx="180" ry="330" fill="#1f314b" opacity="0.4" filter="url(#blur)"/>
+  <ellipse cx="610" cy="220" rx="180" ry="340" fill="#2b2434" opacity="0.24" filter="url(#blur)"/>
+  <ellipse cx="400" cy="380" rx="220" ry="280" fill="url(#light)"/>
+
+  <path d="M178 781 C156 516, 191 246, 362 120 C443 62, 574 67, 635 174 C692 274, 687 436, 636 573 C576 733, 426 861, 265 820 Z" fill="url(#hair)"/>
+  <path d="M606 279 C685 389, 706 548, 623 764 C690 720, 749 604, 744 449 C741 314, 689 212, 606 279 Z" fill="#0e1627"/>
+  <path d="M302 221 C234 304, 219 463, 245 599 C271 734, 369 793, 462 766 C562 737, 619 602, 605 452 C595 340, 552 238, 489 194 C422 147, 352 160, 302 221 Z" fill="url(#face)"/>
+
+  <path d="M308 191 C385 117, 524 110, 603 209 C650 268, 670 349, 655 437 C638 388, 605 355, 560 320 C529 196, 405 145, 308 191 Z" fill="#0a111d"/>
+  <path d="M273 188 C212 258, 176 377, 183 552 C136 433, 133 293, 178 207 C208 149, 257 121, 322 114 C301 133, 285 157, 273 188 Z" fill="#101a29"/>
+  <path d="M322 199 C308 266, 265 487, 243 747 C214 638, 214 481, 238 359 C258 260, 285 211, 322 199 Z" fill="#111b2b"/>
+  <path d="M248 352 C328 296, 441 274, 570 301 C523 244, 428 204, 347 222 C291 235, 255 278, 248 352 Z" fill="#152132" opacity="0.76"/>
+  <path d="M532 504 C614 494, 690 529, 773 618 L706 841 C612 806, 562 748, 532 504 Z" fill="#1b2434"/>
+  <path d="M548 515 C626 524, 700 567, 770 640" stroke="#63718b" stroke-opacity="0.35" stroke-width="12"/>
+
+  <rect x="359" y="202" width="112" height="493" rx="46" fill="#09111d" opacity="0.72"/>
+  <path d="M352 205 C387 313, 410 446, 396 693 C367 630, 350 531, 347 402 C345 320, 347 257, 352 205 Z" fill="#0b1320"/>
+
+  <ellipse cx="330" cy="458" rx="44" ry="23" fill="#2b3443" opacity="0.38"/>
+  <ellipse cx="489" cy="453" rx="48" ry="24" fill="#2b3443" opacity="0.38"/>
+  <ellipse cx="337" cy="463" rx="34" ry="18" fill="#0a0d12"/>
+  <ellipse cx="496" cy="460" rx="37" ry="19" fill="#111419"/>
+  <path d="M291 420 C318 395, 354 392, 390 408" stroke="#495970" stroke-width="10" stroke-linecap="round" opacity="0.5"/>
+  <path d="M455 414 C492 394, 533 398, 569 425" stroke="#495970" stroke-width="10" stroke-linecap="round" opacity="0.46"/>
+  <path d="M408 467 C392 521, 389 568, 418 587" stroke="#68758e" stroke-width="7" stroke-linecap="round" opacity="0.5"/>
+  <path d="M350 629 C390 612, 434 612, 473 624" stroke="#c69ba0" stroke-width="10" stroke-linecap="round" opacity="0.72"/>
+  <path d="M349 646 C386 677, 450 678, 486 643" stroke="#8d616a" stroke-width="9" stroke-linecap="round" opacity="0.6"/>
+  <path d="M285 303 C243 378, 238 468, 264 598" stroke="#5d6d86" stroke-width="18" stroke-linecap="round" opacity="0.22"/>
+  <path d="M596 320 C631 399, 636 476, 618 579" stroke="#5d6d86" stroke-width="18" stroke-linecap="round" opacity="0.22"/>
+
+  <rect x="0" y="0" width="800" height="900" fill="url(#light)" opacity="0.24"/>
+</svg>
